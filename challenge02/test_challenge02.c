@@ -38,8 +38,9 @@ void test_Completo(){
     assert(multiplicacion(-2, -3) == 6);
 
     assert(division(6, 3) == 2);
-    assert(division(5, 2) == 2); // División entera
+    assert(division(5, 2) == 2);
     assert(division(-6, 3) == -2);
+    assert(division(5, 0) == 0);
 
     printf("Todas las pruebas pasaron.\n");
 }
