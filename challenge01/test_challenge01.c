@@ -1,11 +1,11 @@
+// Pruebas unitarias
+#include <assert.h>
+#include <stdio.h>
+
 int suma(int a, int b)
 {
     return a + b;
 };
-
-// Pruebas unitarias
-#include <assert.h>
-#include <stdio.h>
 
 void test_suma() {
     assert(suma(2, 3) == 5);
